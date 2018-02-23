@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/restaurantText"
+        style="@style/CategoryStyle"
+        android:text="@string/category_restaurant" />
+
+    <ImageButton
+        android:id="@+id/restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@mipmap/restaurant_image" />
+
+    <TextView
+        android:id="@+id/sightsText"
+        style="@style/CategoryStyle"
+        android:text="@string/category_sights" />
+
+    <ImageButton
+        android:id="@+id/sights"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@mipmap/attraction_image" />
+
+</LinearLayout>

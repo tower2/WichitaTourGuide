@@ -1,0 +1,39 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Wichita Tour Guide</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_scotchSirloin"> Scotch \u0026 Sirloin Steakhouse</string>
+
+    <!-- Category name for the vocabulary locations for colors [CHAR LIMIT=20] -->
+    <string name="category_restaurant"> Restaurants </string>
+
+    <!-- Category name for Old Cowtown [CHAR LIMIT=20] -->
+    <string name="category_oldCowtown"> Mid-American Old Cowtown Museum </string>
+
+    <!-- Category name for the vocabulary locations for family members [CHAR LIMIT=20] -->
+    <string name="category_sights"> Sights </string>
+
+    <string name="category_chesters"> Chester\'s Chophouse \u0026 Wine Bar </string>
+
+    <!-- Used provided shortcut to insert strings into strings.xml  AMAZING -->
+    <string name="category_indianCenter"> Mid-America All-Indian Center </string>
+    <string name="chestera"><![CDATA[Chester\'s Chop House & Wine Bar]]></string>
+    <string name="chesters_address">1550 N. Webb Rd., Wichita, Kansas, 67206</string>
+    <string name="chesters_phone_number">316-201-1300</string>
+    <string name="chesters_website">www.chesterschophouse.com</string>
+    <string name="indian">Mid-America All-Indian Center</string>
+    <string name="indian_address">650 N. Seneca St., Wichita, Kansas</string>
+    <string name="indian_phone_number">316-350-3340</string>
+    <string name="indian_website">www.theindiancenter.org</string>
+    <string name="cowtown">Mid-American Old Cowtown</string>
+    <string name="cowtown_address">1865 W. Museum Blvd., Wichita, Kansas, 67203</string>
+    <string name="cowtown_phone_number">316-219-1871</string>
+    <string name="cowtown_website">www.oldcowtown.org</string>
+    <string name="scotch"><![CDATA[Scotch & Sirloin]]></string>
+    <string name="scotch_address">5325 E. Kellogg Ave., Wichita, Kansas, 67218</string>
+    <string name="scotch_phone_number">316-685-8701</string>
+    <string name="scotch_website">www.scotchandsirloin.net</string>
+
+
+</resources>

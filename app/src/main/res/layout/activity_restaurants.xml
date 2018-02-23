@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Place into ListView after general template -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/chestersText"
+        style="@style/CategoryStyle"
+        android:text="@string/category_chesters" />
+
+    <ImageButton
+        android:id="@+id/chesters"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="chestersClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/chesters_exterior" />
+
+    <TextView
+        android:id="@+id/scotchSirloinText"
+        style="@style/CategoryStyle"
+        android:text="@string/category_scotchSirloin" />
+
+    <ImageButton
+        android:id="@+id/scotchSirloin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="scotchSirloinClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/scotch_and_sirloin_exterior" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/oldCowtownText"
+        style="@style/CategoryStyle"
+        android:text="@string/category_oldCowtown" />
+
+    <ImageButton
+        android:id="@+id/oldCowtown"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="oldCowtownClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/cowtown_logo" />
+
+    <TextView
+        android:id="@+id/indianCenterText"
+        style="@style/CategoryStyle"
+        android:text="@string/category_indianCenter" />
+
+    <ImageButton
+        android:id="@+id/indianCenter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="indianCenterClick"
+        android:scaleType="fitXY"
+        android:src="@drawable/all_indian_center_logo" />
+
+</LinearLayout>

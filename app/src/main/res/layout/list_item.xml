@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CategoryStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/picture_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/facility_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="top line" />
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="Bottom Line" />
+
+    <TextView
+        android:id="@+id/phone_number_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="top line" />
+
+    <TextView
+        android:id="@+id/website_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:text="Bottom Line" />
+
+</LinearLayout>
